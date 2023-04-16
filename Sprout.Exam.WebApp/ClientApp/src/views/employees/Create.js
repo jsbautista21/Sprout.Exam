@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { FormErrors } from './FormErrors';
 import authService from '../../components/api-authorization/AuthorizeService';
 
+
 export class EmployeeCreate extends Component {
     static displayName = EmployeeCreate.name;
 
@@ -17,6 +18,7 @@ export class EmployeeCreate extends Component {
           salaryValid: false,
           formValid: false      };
     }
+
 
 
     componentDidMount() {
